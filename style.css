@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.flexcontainer {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+img {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.content1 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 20px;
+  padding-left: 25px;
+  width: 200px;
+  height: 350px;
+  background-color: hsl(31, 77%, 52%);
+}
+.content2 {
+  padding: 20px;
+  padding-left: 25px;
+  width: 200px;
+  height: 350px;
+  background-color: hsl(184, 100%, 22%);
+}
+.content3 {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 20px;
+  padding-left: 25px;
+  width: 200px;
+  height: 350px;
+  background-color: hsl(179, 100%, 13%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 25px;
+}
+h1 {
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 20px;
+  font-family: 'Big Shoulders Display', cursive;
+}
+.btn1 {
+  border-color: hsl(0, 0%, 95%);
+  text-align: center;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+}
+.btn2 {
+  border-color: hsl(0, 0%, 95%);
+  text-align: center;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+}
+.btn3 {
+  border-color: hsl(0, 0%, 95%);
+  text-align: center;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+}
+.btn1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  transition: 0.5s;
+}
+.btn2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  transition: 0.5s;
+}
+.btn3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  transition: 0.5s;
+}
+.btn1,
+.btn2,
+.btn3 {
+  margin-top: 50px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.navigate{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+@media screen and (min-width: 1000px) {
+  .flexcontainer {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  img {
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .content1 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    padding: 20px;
+    padding-left: 25px;
+    width: 200px;
+    height: 350px;
+    background-color: hsl(31, 77%, 52%);
+  }
+  .content2 {
+    padding: 20px;
+    padding-left: 25px;
+    width: 200px;
+    height: 350px;
+    background-color: hsl(184, 100%, 22%);
+  }
+  .content3 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    padding: 20px;
+    padding-left: 25px;
+    width: 200px;
+    height: 350px;
+    background-color: hsl(179, 100%, 13%);
+  }
+  p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 27px;
+  }
+  h1 {
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+  }
+  .btn1 {
+    border-color: hsl(0, 0%, 95%);
+    text-align: center;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+  }
+  .btn2 {
+    border-color: hsl(0, 0%, 95%);
+    text-align: center;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+  }
+  .btn3 {
+    border-color: hsl(0, 0%, 95%);
+    text-align: center;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+  }
+  .btn1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    transition: 0.5s;
+  }
+  .btn2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    transition: 0.5s;
+  }
+  .btn3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    transition: 0.5s;
+  }
+  .btn1,
+  .btn2,
+  .btn3 {
+    margin-top: 45px;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  .navigate{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+}

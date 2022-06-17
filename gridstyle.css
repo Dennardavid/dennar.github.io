@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #e3e3e3;
+  font-family: 'Big Shoulders Display', cursive;
+}
+main {
+  display: grid;
+  grid-template-areas:
+    "a a b"
+    "a a b"
+    "c d d"
+    "c e e";
+  gap: 5px;
+}
+.content1 {
+  background-color: orangered;
+  grid-area: a;
+  width: 295px;
+  height: 100px;
+  margin-left: 10px;
+}
+.content2 {
+  background-color: orange;
+  grid-area: b;
+  width: 146px;
+}
+.content3 {
+  background-color: rgba(0, 128, 0, 0.808);
+  grid-area: c;
+  width: 220px;
+  height: 100px;
+  margin-left: 10px;
+}
+.content4 {
+  background-color: dodgerblue;
+  grid-area: d;
+  width: 220px;
+  height: 35px;
+}
+.content5 {
+  background-color: dodgerblue;
+  grid-area: e;
+  width: 220px;
+  height: 50px;
+}
+
+@media only screen and (min-width: 1000px) {
+  main {
+    display: grid;
+    grid-template-areas:
+      "a a b"
+      "a a b"
+      "c d d"
+      "c e e";
+    gap: 5px;
+  }
+  .content1 {
+    background-color: orangered;
+    grid-area: a;
+    width: 300px;
+    height: 90px;
+  }
+  .content2 {
+    background-color: orange;
+    grid-area: b;
+    width: 150px;
+  }
+  .content3 {
+    background-color: rgba(0, 128, 0, 0.808);
+    grid-area: c;
+    width: 225px;
+    height: 90px;
+  }
+  .content4 {
+    background-color: dodgerblue;
+    grid-area: d;
+    width: 225px;
+  }
+  .content5 {
+    background-color: dodgerblue;
+    grid-area: e;
+    width: 225px;
+  }
+}
